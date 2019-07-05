@@ -15,11 +15,17 @@ html, body {
   margin: auto;
 }
 
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  }
+
 
 /*---------- HEADER ----------*/
 
 header {
-  height: 300px;
+  height: 75px;
   width: 100%;
   background: #6b5b95;
   /* background: #e3e3e3; */
