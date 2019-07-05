@@ -15,6 +15,13 @@ html, body {
   margin: auto;
 }
 
+h1 {
+  font-family: sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
 p {
   font-family: sans-serif;
   font-size: 16px;
@@ -81,10 +88,15 @@ footer {
 
   #column-3 {
     background-color: #ada397;
+    width:100%;
   }
 
   footer {
     background-color: #d6cbd3;
+  }
+
+  .col-3 {
+    width: 50%;
   }
 
 }
@@ -106,10 +118,15 @@ footer {
 
   #column-3 {
     background-color: #f4e1d2;
+    width: 33.33%;
   }
 
   footer {
     background-color: #b2b2b2;
+  }
+
+  .col-3 {
+    width: 33.33%;
   }
 
 }
